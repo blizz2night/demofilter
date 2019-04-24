@@ -211,9 +211,11 @@ public final class FilterGLRenderer implements GLSurfaceView.Renderer {
     verticesBuffer.position(POSITION_OFFSET);
     GLES20.glVertexAttribPointer(
       positionHandle,
+      //取x,y两个坐标
       POSITION_COUNT,
       GLES20.GL_FLOAT,
       /* normalized= */ false,
+      //x0y0s0t0 x1y1s1t1
       STRIDE_BYTES,
       verticesBuffer);
     GLES20.glEnableVertexAttribArray(positionHandle);

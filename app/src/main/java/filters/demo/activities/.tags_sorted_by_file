@@ -1,0 +1,241 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AutoFitGLSurfaceView	AutoFitGLSurfaceView.java	/^  public AutoFitGLSurfaceView(Context context) {$/;"	m	class:AutoFitGLSurfaceView
+AutoFitGLSurfaceView	AutoFitGLSurfaceView.java	/^  public AutoFitGLSurfaceView(Context context, AttributeSet attrs) {$/;"	m	class:AutoFitGLSurfaceView
+AutoFitGLSurfaceView	AutoFitGLSurfaceView.java	/^public final class AutoFitGLSurfaceView extends GLSurfaceView {$/;"	c
+filters.demo.activities	AutoFitGLSurfaceView.java	/^package filters.demo.activities;$/;"	p
+onMeasure	AutoFitGLSurfaceView.java	/^  protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {$/;"	m	class:AutoFitGLSurfaceView
+ratioHeight	AutoFitGLSurfaceView.java	/^  private int ratioHeight = 0;$/;"	f	class:AutoFitGLSurfaceView	file:
+ratioWidth	AutoFitGLSurfaceView.java	/^  private int ratioWidth = 0;$/;"	f	class:AutoFitGLSurfaceView	file:
+setAspectRatio	AutoFitGLSurfaceView.java	/^  public void setAspectRatio(int width, int height) {$/;"	m	class:AutoFitGLSurfaceView
+BACK	CameraConfigurationManager.java	/^    BACK,$/;"	e	enum:CameraConfigurationManager.CameraDirection	file:
+CameraConfigurationManager	CameraConfigurationManager.java	/^  public CameraConfigurationManager($/;"	m	class:CameraConfigurationManager
+CameraConfigurationManager	CameraConfigurationManager.java	/^final class CameraConfigurationManager {$/;"	c
+CameraDirection	CameraConfigurationManager.java	/^  enum CameraDirection {$/;"	g	class:CameraConfigurationManager
+CompareSizesByArea	CameraConfigurationManager.java	/^  private static class CompareSizesByArea implements Comparator<Size> {$/;"	c	class:CameraConfigurationManager
+ConfiguredOrientationCallback	CameraConfigurationManager.java	/^  public interface ConfiguredOrientationCallback {$/;"	i	class:CameraConfigurationManager
+FRONT	CameraConfigurationManager.java	/^    FRONT,$/;"	e	enum:CameraConfigurationManager.CameraDirection	file:
+MAX_PREVIEW_HEIGHT	CameraConfigurationManager.java	/^  private static final int MAX_PREVIEW_HEIGHT = 1080;$/;"	f	class:CameraConfigurationManager	file:
+MAX_PREVIEW_WIDTH	CameraConfigurationManager.java	/^  private static final int MAX_PREVIEW_WIDTH = 1920;$/;"	f	class:CameraConfigurationManager	file:
+ORIENTATIONS	CameraConfigurationManager.java	/^  private static final SparseIntArray ORIENTATIONS = new SparseIntArray();$/;"	f	class:CameraConfigurationManager	file:
+TAG	CameraConfigurationManager.java	/^  private static final String TAG = CameraConfigurationManager.class.getSimpleName();$/;"	f	class:CameraConfigurationManager	file:
+cameraId	CameraConfigurationManager.java	/^  private String cameraId;$/;"	f	class:CameraConfigurationManager	file:
+cameraManager	CameraConfigurationManager.java	/^  private final CameraManager cameraManager;$/;"	f	class:CameraConfigurationManager	file:
+chooseOptimalSize	CameraConfigurationManager.java	/^  private Size chooseOptimalSize($/;"	m	class:CameraConfigurationManager	file:
+compare	CameraConfigurationManager.java	/^    public int compare(Size lhs, Size rhs) {$/;"	m	class:CameraConfigurationManager.CompareSizesByArea
+configuredOrientationCallback	CameraConfigurationManager.java	/^  private final ConfiguredOrientationCallback configuredOrientationCallback;$/;"	f	class:CameraConfigurationManager	file:
+context	CameraConfigurationManager.java	/^  private final Context context;$/;"	f	class:CameraConfigurationManager	file:
+filters.demo.activities	CameraConfigurationManager.java	/^package filters.demo.activities;$/;"	p
+getDefaultDisplay	CameraConfigurationManager.java	/^  private Display getDefaultDisplay() {$/;"	m	class:CameraConfigurationManager	file:
+getRotationForCurrentCamera	CameraConfigurationManager.java	/^  public Integer getRotationForCurrentCamera() {$/;"	m	class:CameraConfigurationManager
+onConfiguredOrientation	CameraConfigurationManager.java	/^    void onConfiguredOrientation(Size imageSize, Size cameraPreviewSize);$/;"	m	interface:CameraConfigurationManager.ConfiguredOrientationCallback
+openCamera	CameraConfigurationManager.java	/^  public void openCamera(CameraDevice.StateCallback deviceStateCallback, Handler backgroundHandler)$/;"	m	class:CameraConfigurationManager
+previewSize	CameraConfigurationManager.java	/^  private Size previewSize;$/;"	f	class:CameraConfigurationManager	file:
+setCameraOrientation	CameraConfigurationManager.java	/^  public void setCameraOrientation(CameraDirection direction, int width, int height) {$/;"	m	class:CameraConfigurationManager
+streamConfigurationMap	CameraConfigurationManager.java	/^  private StreamConfigurationMap streamConfigurationMap;$/;"	f	class:CameraConfigurationManager	file:
+CAMERA_THREAD_NAME	CameraModule.java	/^  private static final String CAMERA_THREAD_NAME = "CameraBackground";$/;"	f	class:CameraModule	file:
+CameraModule	CameraModule.java	/^  public CameraModule($/;"	m	class:CameraModule
+CameraModule	CameraModule.java	/^public final class CameraModule {$/;"	c
+CameraOpenListener	CameraModule.java	/^  public interface CameraOpenListener {$/;"	i	class:CameraModule
+SEMAPHORE_MAX_WAIT_TIME_MILLIS	CameraModule.java	/^  private static final int SEMAPHORE_MAX_WAIT_TIME_MILLIS = 2500;$/;"	f	class:CameraModule	file:
+TAG	CameraModule.java	/^  private static final String TAG = CameraModule.class.getSimpleName();$/;"	f	class:CameraModule	file:
+backgroundHandler	CameraModule.java	/^  private Handler backgroundHandler;$/;"	f	class:CameraModule	file:
+backgroundThread	CameraModule.java	/^  private HandlerThread backgroundThread;$/;"	f	class:CameraModule	file:
+cameraConfigurationManager	CameraModule.java	/^  private final CameraConfigurationManager cameraConfigurationManager;$/;"	f	class:CameraModule	file:
+cameraDevice	CameraModule.java	/^  private CameraDevice cameraDevice;$/;"	f	class:CameraModule	file:
+cameraLock	CameraModule.java	/^  private final Semaphore cameraLock = new Semaphore(1);$/;"	f	class:CameraModule	file:
+cameraOpenListener	CameraModule.java	/^  private final CameraOpenListener cameraOpenListener;$/;"	f	class:CameraModule	file:
+captureSession	CameraModule.java	/^  private CameraCaptureSession captureSession;$/;"	f	class:CameraModule	file:
+captureStillPicture	CameraModule.java	/^  public void captureStillPicture(int filterId) {$/;"	m	class:CameraModule
+close	CameraModule.java	/^  public void close() {$/;"	m	class:CameraModule
+closeCameraDevice	CameraModule.java	/^  private void closeCameraDevice() {$/;"	m	class:CameraModule	file:
+closeCaptureSession	CameraModule.java	/^  private void closeCaptureSession() {$/;"	m	class:CameraModule	file:
+configurationCallback	CameraModule.java	/^  private final CameraConfigurationManager.ConfiguredOrientationCallback configurationCallback =$/;"	f	class:CameraModule	file:
+configureCamera	CameraModule.java	/^  public void configureCamera(int availableWidth, int availableHeight) {$/;"	m	class:CameraModule
+context	CameraModule.java	/^  private final Context context;$/;"	f	class:CameraModule	file:
+createCaptureSession	CameraModule.java	/^  private void createCaptureSession() {$/;"	m	class:CameraModule	file:
+createPreviewRequest	CameraModule.java	/^  private void createPreviewRequest() {$/;"	m	class:CameraModule	file:
+deviceStateCallback	CameraModule.java	/^  private final CameraDevice.StateCallback deviceStateCallback =$/;"	f	class:CameraModule	file:
+filterId	CameraModule.java	/^  private int filterId = FilterGLRenderer.NO_FILTER_ID;$/;"	f	class:CameraModule	file:
+filters.demo.activities	CameraModule.java	/^package filters.demo.activities;$/;"	p
+getCameraRotationAngle	CameraModule.java	/^  public Integer getCameraRotationAngle() {$/;"	m	class:CameraModule
+imageReader	CameraModule.java	/^  private ImageReader imageReader;$/;"	f	class:CameraModule	file:
+onAvailableImage	CameraModule.java	/^  private void onAvailableImage(ImageReader reader) {$/;"	m	class:CameraModule	file:
+onCameraReady	CameraModule.java	/^    void onCameraReady();$/;"	m	interface:CameraModule.CameraOpenListener
+onImageAvailableListener	CameraModule.java	/^  private final ImageReader.OnImageAvailableListener onImageAvailableListener =$/;"	f	class:CameraModule	file:
+onPreviewSizeDetermined	CameraModule.java	/^    void onPreviewSizeDetermined(Size previewSize);$/;"	m	interface:CameraModule.CameraOpenListener
+openCameraDevice	CameraModule.java	/^  private void openCameraDevice() {$/;"	m	class:CameraModule	file:
+previewRequest	CameraModule.java	/^  private CaptureRequest previewRequest;$/;"	f	class:CameraModule	file:
+previewRequestBuilder	CameraModule.java	/^  private CaptureRequest.Builder previewRequestBuilder;$/;"	f	class:CameraModule	file:
+previewSize	CameraModule.java	/^  private Size previewSize;$/;"	f	class:CameraModule	file:
+sessionStateCallback	CameraModule.java	/^  private final CameraCaptureSession.StateCallback sessionStateCallback =$/;"	f	class:CameraModule	file:
+setSurfaceTexture	CameraModule.java	/^  public void setSurfaceTexture(SurfaceTexture surfaceTexture) {$/;"	m	class:CameraModule
+start	CameraModule.java	/^  public void start() {$/;"	m	class:CameraModule
+startBackgroundThread	CameraModule.java	/^  private void startBackgroundThread() {$/;"	m	class:CameraModule	file:
+stopBackgroundThread	CameraModule.java	/^  private void stopBackgroundThread() {$/;"	m	class:CameraModule	file:
+surfaceTexture	CameraModule.java	/^  private SurfaceTexture surfaceTexture;$/;"	f	class:CameraModule	file:
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+ALL_PERMISSION_REQUEST_CODE	DemoActivity.java	/^  private static final int ALL_PERMISSION_REQUEST_CODE = 3;$/;"	f	class:DemoActivity	file:
+DemoActivity	DemoActivity.java	/^public class DemoActivity extends AppCompatActivity {$/;"	c
+LUTFilterRetrievalTask	DemoActivity.java	/^  private final class LUTFilterRetrievalTask extends AsyncTask<String, Void, Void> {$/;"	c	class:DemoActivity
+MINIMIMUM_VALID_PROVIDER_VERSION	DemoActivity.java	/^  private static final int MINIMIMUM_VALID_PROVIDER_VERSION = 1;$/;"	f	class:DemoActivity	file:
+REQUIRED_PERMISSIONS	DemoActivity.java	/^  private static final String[] REQUIRED_PERMISSIONS = {$/;"	f	class:DemoActivity	file:
+TAG	DemoActivity.java	/^  private static final String TAG = DemoActivity.class.getSimpleName();$/;"	f	class:DemoActivity	file:
+autoFitGLSurfaceView	DemoActivity.java	/^  private AutoFitGLSurfaceView autoFitGLSurfaceView;$/;"	f	class:DemoActivity	file:
+caller	DemoActivity.java	/^    private PartnerContentProviderCaller caller;$/;"	f	class:DemoActivity.LUTFilterRetrievalTask	file:
+cameraModule	DemoActivity.java	/^  private CameraModule cameraModule;$/;"	f	class:DemoActivity	file:
+cameraOpenListener	DemoActivity.java	/^  private final CameraModule.CameraOpenListener cameraOpenListener =$/;"	f	class:DemoActivity	file:
+captureImage	DemoActivity.java	/^  private void captureImage() {$/;"	m	class:DemoActivity	file:
+changeFilterButton	DemoActivity.java	/^  private Button changeFilterButton;$/;"	f	class:DemoActivity	file:
+doInBackground	DemoActivity.java	/^    protected Void doInBackground(String... methods) {$/;"	m	class:DemoActivity.LUTFilterRetrievalTask
+enableAutoFitGLSurfaceViewTouchListener	DemoActivity.java	/^  private void enableAutoFitGLSurfaceViewTouchListener() {$/;"	m	class:DemoActivity	file:
+filterGLRenderer	DemoActivity.java	/^  private FilterGLRenderer filterGLRenderer;$/;"	f	class:DemoActivity	file:
+filters.demo.activities	DemoActivity.java	/^package filters.demo.activities;$/;"	p
+handleLookupTableRetrieval	DemoActivity.java	/^    private void handleLookupTableRetrieval() {$/;"	m	class:DemoActivity.LUTFilterRetrievalTask	file:
+isValidVersion	DemoActivity.java	/^  private boolean isValidVersion(int version) {$/;"	m	class:DemoActivity	file:
+method	DemoActivity.java	/^    private String method;$/;"	f	class:DemoActivity.LUTFilterRetrievalTask	file:
+obtainLutIndexFromTouch	DemoActivity.java	/^  private int obtainLutIndexFromTouch(float xCoordinate, float yCoordinate) {$/;"	m	class:DemoActivity	file:
+onActivityResult	DemoActivity.java	/^  protected void onActivityResult(int requestCode, int resultCode, Intent data) {$/;"	m	class:DemoActivity
+onCreate	DemoActivity.java	/^  protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:DemoActivity
+onPause	DemoActivity.java	/^  public void onPause() {$/;"	m	class:DemoActivity
+onPostExecute	DemoActivity.java	/^    protected void onPostExecute(Void v) {$/;"	m	class:DemoActivity.LUTFilterRetrievalTask
+onResume	DemoActivity.java	/^  public void onResume() {$/;"	m	class:DemoActivity
+returnedBundle	DemoActivity.java	/^    private Bundle returnedBundle = null;$/;"	f	class:DemoActivity.LUTFilterRetrievalTask	file:
+setUpView	DemoActivity.java	/^  private void setUpView() {$/;"	m	class:DemoActivity	file:
+stitchBitmaps	DemoActivity.java	/^  private void stitchBitmaps(ArrayList<Bitmap> lutBitmaps) {$/;"	m	class:DemoActivity	file:
+surfaceReadyCallback	DemoActivity.java	/^  private final FilterGLRenderer.SurfaceReadyCallback surfaceReadyCallback =$/;"	f	class:DemoActivity	file:
+version	DemoActivity.java	/^  public static int version = -1;$/;"	f	class:DemoActivity
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+FILTERED_FILE_PREFIX	FileUtil.java	/^  private static final String FILTERED_FILE_PREFIX = "filteredImage";$/;"	f	class:FileUtil	file:
+FileUtil	FileUtil.java	/^public final class FileUtil {$/;"	c
+JPEG_FILE_EXTENSION	FileUtil.java	/^  private static final String JPEG_FILE_EXTENSION = ".jpg";$/;"	f	class:FileUtil	file:
+TAG	FileUtil.java	/^  private static final String TAG = FileUtil.class.getSimpleName();$/;"	f	class:FileUtil	file:
+UNFILTERED_DIRECTORY	FileUtil.java	/^  private static final String UNFILTERED_DIRECTORY = "unfilteredImages";$/;"	f	class:FileUtil	file:
+UNFILTERED_FILE_PREFIX	FileUtil.java	/^  public static final String UNFILTERED_FILE_PREFIX = "tempImage";$/;"	f	class:FileUtil
+createFilteredFile	FileUtil.java	/^  public static File createFilteredFile(String uniqueId) {$/;"	m	class:FileUtil
+createUnfilteredFile	FileUtil.java	/^  private static File createUnfilteredFile(File directory, String uniqueId) {$/;"	m	class:FileUtil	file:
+filters.demo.activities	FileUtil.java	/^package filters.demo.activities;$/;"	p
+getDCIMDirectory	FileUtil.java	/^  private static File getDCIMDirectory() {$/;"	m	class:FileUtil	file:
+getOrCreateUnfilteredDirectory	FileUtil.java	/^  public static File getOrCreateUnfilteredDirectory(Context context) {$/;"	m	class:FileUtil
+getProperDirectory	FileUtil.java	/^  public static File getProperDirectory(Context context, boolean requiresFilter) {$/;"	m	class:FileUtil
+writeBytesToFile	FileUtil.java	/^  public static File writeBytesToFile(File directory, String uniqueId, byte[] data) {$/;"	m	class:FileUtil
+FilterDemoContentProvider	FilterDemoContentProvider.java	/^public final class FilterDemoContentProvider extends ContentProvider {$/;"	c
+READ_MODE	FilterDemoContentProvider.java	/^  private static final String READ_MODE = "r";$/;"	f	class:FilterDemoContentProvider	file:
+TAG	FilterDemoContentProvider.java	/^  private static final String TAG = FilterDemoContentProvider.class.getSimpleName();$/;"	f	class:FilterDemoContentProvider	file:
+delete	FilterDemoContentProvider.java	/^  public int delete($/;"	m	class:FilterDemoContentProvider
+filters.demo.activities	FilterDemoContentProvider.java	/^package filters.demo.activities;$/;"	p
+getType	FilterDemoContentProvider.java	/^  public String getType(@NonNull Uri uri) {$/;"	m	class:FilterDemoContentProvider
+insert	FilterDemoContentProvider.java	/^  public Uri insert(@NonNull Uri uri, @Nullable ContentValues values) {$/;"	m	class:FilterDemoContentProvider
+onCreate	FilterDemoContentProvider.java	/^  public final boolean onCreate() {$/;"	m	class:FilterDemoContentProvider
+openFile	FilterDemoContentProvider.java	/^  public ParcelFileDescriptor openFile(Uri uri, String mode) {$/;"	m	class:FilterDemoContentProvider
+query	FilterDemoContentProvider.java	/^  public Cursor query($/;"	m	class:FilterDemoContentProvider
+trustedPartners	FilterDemoContentProvider.java	/^  private TrustedPartners trustedPartners;$/;"	f	class:FilterDemoContentProvider	file:
+update	FilterDemoContentProvider.java	/^  public int update($/;"	m	class:FilterDemoContentProvider
+validateCallingPackage	FilterDemoContentProvider.java	/^  private void validateCallingPackage() {$/;"	m	class:FilterDemoContentProvider	file:
+BYTES_PER_FLOAT	FilterGLRenderer.java	/^  private static final int BYTES_PER_FLOAT = 4;$/;"	f	class:FilterGLRenderer	file:
+FRAGMENT_SHADER_CODE_FILENAME	FilterGLRenderer.java	/^  private static final String FRAGMENT_SHADER_CODE_FILENAME = "photo_fsh.fsh";$/;"	f	class:FilterGLRenderer	file:
+FilterGLRenderer	FilterGLRenderer.java	/^  public FilterGLRenderer(Context context, SurfaceReadyCallback surfaceReadyCallback) {$/;"	m	class:FilterGLRenderer
+FilterGLRenderer	FilterGLRenderer.java	/^public final class FilterGLRenderer implements GLSurfaceView.Renderer {$/;"	c
+NO_FILTER_ID	FilterGLRenderer.java	/^  public static final int NO_FILTER_ID = -1;$/;"	f	class:FilterGLRenderer
+POSITION_COUNT	FilterGLRenderer.java	/^  private static final int POSITION_COUNT = 2;$/;"	f	class:FilterGLRenderer	file:
+POSITION_OFFSET	FilterGLRenderer.java	/^  private static final int POSITION_OFFSET = 0;$/;"	f	class:FilterGLRenderer	file:
+STRIDE_BYTES	FilterGLRenderer.java	/^  private static final int STRIDE_BYTES =$/;"	f	class:FilterGLRenderer	file:
+SurfaceReadyCallback	FilterGLRenderer.java	/^  public interface SurfaceReadyCallback {$/;"	i	class:FilterGLRenderer
+TAG	FilterGLRenderer.java	/^  private static final String TAG = FilterGLRenderer.class.getSimpleName();$/;"	f	class:FilterGLRenderer	file:
+TEXTURE_COORDINATE_COUNT	FilterGLRenderer.java	/^  private static final int TEXTURE_COORDINATE_COUNT = 2;$/;"	f	class:FilterGLRenderer	file:
+TEXTURE_COORDINATE_OFFSET	FilterGLRenderer.java	/^  private static final int TEXTURE_COORDINATE_OFFSET = 2;$/;"	f	class:FilterGLRenderer	file:
+VERTEX_COUNT	FilterGLRenderer.java	/^  private static final int VERTEX_COUNT = 4;$/;"	f	class:FilterGLRenderer	file:
+VERTEX_SHADER_CODE_FILENAME	FilterGLRenderer.java	/^  private static final String VERTEX_SHADER_CODE_FILENAME = "photo_vsh.vsh";$/;"	f	class:FilterGLRenderer	file:
+angle	FilterGLRenderer.java	/^  private int angle;$/;"	f	class:FilterGLRenderer	file:
+context	FilterGLRenderer.java	/^  private final Context context;$/;"	f	class:FilterGLRenderer	file:
+createLutObjects	FilterGLRenderer.java	/^  public void createLutObjects($/;"	m	class:FilterGLRenderer
+filters.demo.activities	FilterGLRenderer.java	/^package filters.demo.activities;$/;"	p
+fragmentShaderCode	FilterGLRenderer.java	/^  private String fragmentShaderCode;$/;"	f	class:FilterGLRenderer	file:
+getFilterId	FilterGLRenderer.java	/^  public int getFilterId() {$/;"	m	class:FilterGLRenderer
+getStringFromFileInAssets	FilterGLRenderer.java	/^  private String getStringFromFileInAssets(Context context, String filename) {$/;"	m	class:FilterGLRenderer	file:
+isGrayscaleHandle	FilterGLRenderer.java	/^  private int isGrayscaleHandle;$/;"	f	class:FilterGLRenderer	file:
+isGrayscaleList	FilterGLRenderer.java	/^  private final float[] isGrayscaleList = new float[9];$/;"	f	class:FilterGLRenderer	file:
+loadLutTexture	FilterGLRenderer.java	/^  private void loadLutTexture() {$/;"	m	class:FilterGLRenderer	file:
+loadShaderFromAssets	FilterGLRenderer.java	/^  private void loadShaderFromAssets() {$/;"	m	class:FilterGLRenderer	file:
+lutBitmap	FilterGLRenderer.java	/^  private Bitmap lutBitmap;$/;"	f	class:FilterGLRenderer	file:
+lutHandle	FilterGLRenderer.java	/^  private int lutHandle;$/;"	f	class:FilterGLRenderer	file:
+lutIndex	FilterGLRenderer.java	/^  private int lutIndex = NO_FILTER_ID;$/;"	f	class:FilterGLRenderer	file:
+lutIndexHandle	FilterGLRenderer.java	/^  private int lutIndexHandle;$/;"	f	class:FilterGLRenderer	file:
+luts	FilterGLRenderer.java	/^  private ArrayList<LookupTable> luts;$/;"	f	class:FilterGLRenderer	file:
+lutsCount	FilterGLRenderer.java	/^  private int lutsCount;$/;"	f	class:FilterGLRenderer	file:
+lutsCountHandle	FilterGLRenderer.java	/^  private int lutsCountHandle;$/;"	f	class:FilterGLRenderer	file:
+mvpMatrix	FilterGLRenderer.java	/^  private final float[] mvpMatrix = new float[16];$/;"	f	class:FilterGLRenderer	file:
+mvpMatrixHandle	FilterGLRenderer.java	/^  private int mvpMatrixHandle;$/;"	f	class:FilterGLRenderer	file:
+onDrawFrame	FilterGLRenderer.java	/^  public void onDrawFrame(GL10 glUnused) {$/;"	m	class:FilterGLRenderer
+onSurfaceChanged	FilterGLRenderer.java	/^  public void onSurfaceChanged(GL10 glUnused, int width, int height) {$/;"	m	class:FilterGLRenderer
+onSurfaceCreated	FilterGLRenderer.java	/^  public void onSurfaceCreated(GL10 glUnused, EGLConfig config) {$/;"	m	class:FilterGLRenderer
+onSurfaceReady	FilterGLRenderer.java	/^    void onSurfaceReady(SurfaceTexture surfaceTexture);$/;"	m	interface:FilterGLRenderer.SurfaceReadyCallback
+positionHandle	FilterGLRenderer.java	/^  private int positionHandle;$/;"	f	class:FilterGLRenderer	file:
+setLutBitmap	FilterGLRenderer.java	/^  public void setLutBitmap(Bitmap lutBitmap) {$/;"	m	class:FilterGLRenderer
+setLutIndex	FilterGLRenderer.java	/^  public void setLutIndex(int lutIndex) {$/;"	m	class:FilterGLRenderer
+setLutsCount	FilterGLRenderer.java	/^  public void setLutsCount(int lutsCount) {$/;"	m	class:FilterGLRenderer
+setRotationAngle	FilterGLRenderer.java	/^  public void setRotationAngle(int angle) {$/;"	m	class:FilterGLRenderer
+shouldShowNineTiles	FilterGLRenderer.java	/^  public void shouldShowNineTiles(boolean showNineTiles) {$/;"	m	class:FilterGLRenderer
+showNineTiles	FilterGLRenderer.java	/^  private boolean showNineTiles;$/;"	f	class:FilterGLRenderer	file:
+showNineTiles	FilterGLRenderer.java	/^  public boolean showNineTiles() {$/;"	m	class:FilterGLRenderer
+showNineTilesHandle	FilterGLRenderer.java	/^  private int showNineTilesHandle;$/;"	f	class:FilterGLRenderer	file:
+surfaceReadyCallback	FilterGLRenderer.java	/^  private final SurfaceReadyCallback surfaceReadyCallback;$/;"	f	class:FilterGLRenderer	file:
+surfaceTexture	FilterGLRenderer.java	/^  private SurfaceTexture surfaceTexture;$/;"	f	class:FilterGLRenderer	file:
+textureCoordinateHandle	FilterGLRenderer.java	/^  private int textureCoordinateHandle;$/;"	f	class:FilterGLRenderer	file:
+textureHandle	FilterGLRenderer.java	/^  private int textureHandle;$/;"	f	class:FilterGLRenderer	file:
+textureNames	FilterGLRenderer.java	/^  private int[] textureNames;$/;"	f	class:FilterGLRenderer	file:
+updateGrayscaleList	FilterGLRenderer.java	/^  public void updateGrayscaleList() {$/;"	m	class:FilterGLRenderer
+vertexShaderCode	FilterGLRenderer.java	/^  private String vertexShaderCode;$/;"	f	class:FilterGLRenderer	file:
+verticesBuffer	FilterGLRenderer.java	/^  private final FloatBuffer verticesBuffer;$/;"	f	class:FilterGLRenderer	file:
+ImageSaver	ImageSaver.java	/^  ImageSaver(Context context, Image image, int filterId) {$/;"	m	class:ImageSaver
+ImageSaver	ImageSaver.java	/^public final class ImageSaver implements Runnable {$/;"	c
+TAG	ImageSaver.java	/^  private static final String TAG = ImageSaver.class.getSimpleName();$/;"	f	class:ImageSaver	file:
+applyFilter	ImageSaver.java	/^  private Uri applyFilter(File unfilteredFile) {$/;"	m	class:ImageSaver	file:
+caller	ImageSaver.java	/^  private final PartnerContentProviderCaller caller;$/;"	f	class:ImageSaver	file:
+context	ImageSaver.java	/^  private final Context context;$/;"	f	class:ImageSaver	file:
+createUniqueId	ImageSaver.java	/^  private String createUniqueId() {$/;"	m	class:ImageSaver	file:
+filterId	ImageSaver.java	/^  private final int filterId;$/;"	f	class:ImageSaver	file:
+filters.demo.activities	ImageSaver.java	/^package filters.demo.activities;$/;"	p
+image	ImageSaver.java	/^  private final Image image;$/;"	f	class:ImageSaver	file:
+notifyMediaStoreOfNewFile	ImageSaver.java	/^  private void notifyMediaStoreOfNewFile(Context context, Uri uri) {$/;"	m	class:ImageSaver	file:
+run	ImageSaver.java	/^  public void run() {$/;"	m	class:ImageSaver
+LookupTable	LookupTable.java	/^  private LookupTable(String name, boolean isGrayscale, int id) {$/;"	m	class:LookupTable	file:
+LookupTable	LookupTable.java	/^public final class LookupTable {$/;"	c
+create	LookupTable.java	/^  public static LookupTable create(String name, boolean isGrayscale, int id) {$/;"	m	class:LookupTable
+filters.demo.activities	LookupTable.java	/^package filters.demo.activities;$/;"	p
+getId	LookupTable.java	/^  public int getId() {$/;"	m	class:LookupTable
+getName	LookupTable.java	/^  public String getName() {$/;"	m	class:LookupTable
+id	LookupTable.java	/^  private final int id;$/;"	f	class:LookupTable	file:
+isGrayscale	LookupTable.java	/^  private final boolean isGrayscale;$/;"	f	class:LookupTable	file:
+isGrayscale	LookupTable.java	/^  public boolean isGrayscale() {$/;"	m	class:LookupTable
+name	LookupTable.java	/^  private final String name;$/;"	f	class:LookupTable	file:
+APPLY_FILTER_METHOD_NAME	PartnerContentProviderCaller.java	/^  private static final String APPLY_FILTER_METHOD_NAME = "applyFilter";$/;"	f	class:PartnerContentProviderCaller	file:
+DELETE_FILTERED_PHOTO_METHOD_NAME	PartnerContentProviderCaller.java	/^  private static final String DELETE_FILTERED_PHOTO_METHOD_NAME = "deleteFilteredPhoto";$/;"	f	class:PartnerContentProviderCaller	file:
+FILTER_BITMAPS_LIST_KEY_NAME	PartnerContentProviderCaller.java	/^  public static final String FILTER_BITMAPS_LIST_KEY_NAME = "filter_bitmaps";$/;"	f	class:PartnerContentProviderCaller
+FILTER_IDS_KEY_NAME	PartnerContentProviderCaller.java	/^  public static final String FILTER_IDS_KEY_NAME = "filter_ids";$/;"	f	class:PartnerContentProviderCaller
+FILTER_ID_KEY_NAME	PartnerContentProviderCaller.java	/^  private static final String FILTER_ID_KEY_NAME = "filter_id";$/;"	f	class:PartnerContentProviderCaller	file:
+FILTER_IS_GRAYSCALE_BOOL_LIST_KEY_NAME	PartnerContentProviderCaller.java	/^  public static final String FILTER_IS_GRAYSCALE_BOOL_LIST_KEY_NAME = "filter_isGrayscale";$/;"	f	class:PartnerContentProviderCaller
+FILTER_NAMES_LIST_KEY_NAME	PartnerContentProviderCaller.java	/^  public static final String FILTER_NAMES_LIST_KEY_NAME = "filter_names";$/;"	f	class:PartnerContentProviderCaller
+GET_FILTER_METHOD_NAME	PartnerContentProviderCaller.java	/^  public static final String GET_FILTER_METHOD_NAME = "getFilters";$/;"	f	class:PartnerContentProviderCaller
+GET_VERSION_METHOD_NAME	PartnerContentProviderCaller.java	/^  public static final String GET_VERSION_METHOD_NAME = "getVersion";$/;"	f	class:PartnerContentProviderCaller
+IS_DELETE_SUCCESS_KEY_NAME	PartnerContentProviderCaller.java	/^  private static final String IS_DELETE_SUCCESS_KEY_NAME = "is_delete_success";$/;"	f	class:PartnerContentProviderCaller	file:
+OUTPUT_URI_KEY_NAME	PartnerContentProviderCaller.java	/^  private static final String OUTPUT_URI_KEY_NAME = "output_uri";$/;"	f	class:PartnerContentProviderCaller	file:
+PARTNER_AUTHORITY	PartnerContentProviderCaller.java	/^  private static final String PARTNER_AUTHORITY =$/;"	f	class:PartnerContentProviderCaller	file:
+PARTNER_AUTHORITY_KEY_NAME	PartnerContentProviderCaller.java	/^  private static final String PARTNER_AUTHORITY_KEY_NAME = "partner_authority";$/;"	f	class:PartnerContentProviderCaller	file:
+PARTNER_FILE_KEY_NAME	PartnerContentProviderCaller.java	/^  private static final String PARTNER_FILE_KEY_NAME = "file_name";$/;"	f	class:PartnerContentProviderCaller	file:
+PHOTOS_AUTHORITY	PartnerContentProviderCaller.java	/^  private static final String PHOTOS_AUTHORITY =$/;"	f	class:PartnerContentProviderCaller	file:
+PHOTOS_AUTHORITY_URI	PartnerContentProviderCaller.java	/^  private static final Uri PHOTOS_AUTHORITY_URI = Uri.parse("content:\/\/" + PHOTOS_AUTHORITY);$/;"	f	class:PartnerContentProviderCaller	file:
+PartnerContentProviderCaller	PartnerContentProviderCaller.java	/^  public PartnerContentProviderCaller(Context context) {$/;"	m	class:PartnerContentProviderCaller
+PartnerContentProviderCaller	PartnerContentProviderCaller.java	/^public final class PartnerContentProviderCaller {$/;"	c
+TAG	PartnerContentProviderCaller.java	/^  private static final String TAG = PartnerContentProviderCaller.class.getSimpleName();$/;"	f	class:PartnerContentProviderCaller	file:
+VERSION_KEY_NAME	PartnerContentProviderCaller.java	/^  public static final String VERSION_KEY_NAME = "version";$/;"	f	class:PartnerContentProviderCaller
+applyFilter	PartnerContentProviderCaller.java	/^  public Uri applyFilter(String filename, int filterId, Uri outputUri) {$/;"	m	class:PartnerContentProviderCaller
+context	PartnerContentProviderCaller.java	/^  private final Context context;$/;"	f	class:PartnerContentProviderCaller	file:
+deleteFilteredPhoto	PartnerContentProviderCaller.java	/^  public Boolean deleteFilteredPhoto(String filename) {$/;"	m	class:PartnerContentProviderCaller
+filters.demo.activities	PartnerContentProviderCaller.java	/^package filters.demo.activities;$/;"	p
+getFilters	PartnerContentProviderCaller.java	/^  public Bundle getFilters() {$/;"	m	class:PartnerContentProviderCaller
+getVersionFromPhotos	PartnerContentProviderCaller.java	/^  public int getVersionFromPhotos() {$/;"	m	class:PartnerContentProviderCaller
+trustedPartners	PartnerContentProviderCaller.java	/^  private final TrustedPartners trustedPartners;$/;"	f	class:PartnerContentProviderCaller	file:
+validateAuthority	PartnerContentProviderCaller.java	/^  private void validateAuthority() {$/;"	m	class:PartnerContentProviderCaller	file:
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/

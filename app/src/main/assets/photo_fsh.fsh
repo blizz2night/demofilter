@@ -28,6 +28,7 @@ uniform float u_LookIsGrayscale[9];
 // Whether to show nine tile or single tile look.
 uniform float u_ShowNineTiles;
 
+//lut 的size是17*17的方格
 // Lookup size in each of the three dimensions.
 const float kLookupSize = 17.0;
 
@@ -36,9 +37,11 @@ vec3 ApplyLookup(vec3 color,
                  float lut_index,
                  float is_grayscale,
                  float luts_count) {
+    //color是预览纹理的rgb采样，截断到0-1
   vec3 clamped = clamp(color, vec3(0.0), vec3(1.0));
-
+    //计算颜色在lut方格上的坐标， 【0,16】
   float blue_coord = (kLookupSize - 1.0) * clamped.b;
+    //向下取整，截断到【0,15】
   float blue_coord_low = clamp(floor(blue_coord), 0.0, kLookupSize - 2.0);
 
   float lower_y =
@@ -57,6 +60,7 @@ vec3 ApplyLookup(vec3 color,
   if (is_grayscale > 0.5) {
     color = vec3(0.3 * color.r + 0.59 * color.g + 0.11 * color.b);
   }
+    //线性组合x*a+(1-a)*y,这里为什么不直接return mix(lower_rgb, upper_rgb, frac_b)？
   return mix(color, mix(lower_rgb, upper_rgb, frac_b), 1.0);
 }
 
